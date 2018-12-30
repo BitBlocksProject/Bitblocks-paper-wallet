@@ -87,6 +87,6 @@ janin.currency = {
 janin.currencies = [
     //                              name, networkVersion, privateKeyPrefix, WIF_Start, CWIF_Start, donate
 [
-    janin.currency.createCurrency ("Bitblocks", 0x19, 0x99, "P", "B", "B7jrBdyQbdcTgtncQy8dTBUUa9B3KN4fSwS")
+    janin.currency.createCurrency ("Bitblocks", 0x19, 0x6b, "G", "B", "BKeDP17BkHadrKUunCPZ9rKmNokvvFumcG")
     
                    ];

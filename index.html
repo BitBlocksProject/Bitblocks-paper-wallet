@@ -1,4 +1,4 @@
-<html>
+﻿<html>
 <head>
   <meta charset="utf-8">
   <meta name="description" content="Create your own paper wallet for Bitblocks in a few easy steps: Generate, Print and Fold!">
@@ -9731,7 +9731,7 @@ h1 { margin: 0px; height: 91px; }
             </p>
             <h3 id="securitystep0title" class="i18n">Step 0. Follow the security checklist recommendation</h3>
             <p id="securitystep0" class="i18n">
-              First step is to <strong>download</strong> this website from <a href="https://github.com/BitBenderMedia/XP-Paper-Wallet-Generator/archive/master.zip">Github</a> and open the index.html file directly from your computer. It's just too easy to sneak some evil code in the 6000+ lines of javascript to leak your private key, and you don't want to see your fund stolen. Code version control make it much easier to cross-check what actually run. For extra security, <strong>unplug your Internet access</strong> while generating your wallet.
+              First step is to <strong>download</strong> this website from <a href="https://github.com/LourencoDeMolay/newpaperwalletbitblocks/raw/master/NEW%20Bitblocks-paper-wallet-master.zip">Github</a> and open the index.html file directly from your computer. It's just too easy to sneak some evil code in the 6000+ lines of javascript to leak your private key, and you don't want to see your fund stolen. Code version control make it much easier to cross-check what actually run. For extra security, <strong>unplug your Internet access</strong> while generating your wallet.
             </p>
             <h3 id="securitystep1title" class="i18n">Step 1. Generate new address</h3>
             <p id="securitystep1" class="i18n">
@@ -9759,7 +9759,7 @@ h1 { margin: 0px; height: 91px; }
             <p>
               <strong id="securitystep6" class="i18n">Please test sending a small amount before receiving any large payments.</strong><br /><br />
             </p>
-            <h3 id="securitystep7title" class="i18n">If you like this modification of the Universal Paper Wallet Generator, please consider sending a few Bitblocks my direction at: B7fLeuKvXCbBmYMN2qdsiTSjeTSv75BiJ6</h3>
+            <h3 id="securitystep7title" class="i18n">If you like this modification of the Universal Paper Wallet Generator, please consider sending a few Bitblocks my direction at: BHaY8zXycECFATyWtxbwKCYm3HP2yh4xLs</h3>
           </div>
           <div class="secondHalfSingleSafety">
             <img class="frontPageImage" src="images/overview.png" alt="Overview image of a paper wallet" />
@@ -9972,9 +9972,9 @@ janin.currency = {
         var currency = {};
         currency.name = bitblocks;
         currency.networkVersion =0x19;
-        currency.privateKeyPrefix =0x99;
+        currency.privateKeyPrefix =0x6b;
         currency.WIF_Start =B;
-        currency.CWIF_Start =P;
+        currency.CWIF_Start =G;
         return currency;
     },
 
@@ -9987,7 +9987,7 @@ janin.currency = {
     },
 
     privateKeyPrefix: function() {
-        return currency.privateKeyPrefix = 0x99;
+        return currency.privateKeyPrefix = 0x6b;
     },
 
     WIF_RegEx: function() {
@@ -10037,7 +10037,7 @@ janin.currency = {
 
 janin.currencies = [
     //                              name, networkVersion, privateKeyPrefix, WIF_Start, CWIF_Start, donate
-    janin.currency.createCurrency ("Bitblocks", 0x19, 0x99, "P", "B", "B7jrBdyQbdcTgtncQy8dTBUUa9B3KN4fSwS"), ];
+    janin.currency.createCurrency ("Bitblocks", 0x19, 0x6b, "G", "B", "BKeDP17BkHadrKUunCPZ9rKmNokvvFumcG"), ];
   </script>
   <script type="text/javascript">
 var ninja = { wallets: {} };
